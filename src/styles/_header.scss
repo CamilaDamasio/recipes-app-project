@@ -1,0 +1,46 @@
+@font-face {
+  font-family: KithcenHome;
+  src: url("./fonts/KitchenHome-rg0gB.ttf");
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: $cool-green;
+  width: 100vw;
+  font-family: KithcenHome, sans-serif;
+  padding: 5px;
+  color: $off-white;
+
+  h2 {
+    font-weight: 600;
+    width: fit-content;
+    margin-left: 5vw;
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+
+}
+
+.search-bar {
+  position: absolute;
+  transition: all 1s;
+  top: 51px;
+  height: fit-content;
+  background-color: $off-white;
+  width: 100vw;
+  border-radius: 0 0 5px 5px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.radios {
+  display: flex;
+  justify-content: space-between;
+}

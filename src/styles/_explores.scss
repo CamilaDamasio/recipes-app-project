@@ -1,0 +1,24 @@
+.explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  header {
+    margin-bottom: 10px;
+  }
+}
+
+.explore-btns {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+
+  button {
+    margin: 10px;
+  }
+}
+
+.origin-select {
+  margin: 0;
+}

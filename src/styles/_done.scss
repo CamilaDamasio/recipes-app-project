@@ -1,0 +1,35 @@
+.done-recipe-card {
+  display: flex;
+  width: 90vw;
+  margin: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px black;
+  backdrop-filter: blur(5px);
+
+  button {
+    width: 85vw;
+  }
+}
+
+.done-img {
+  width: 120px;
+  border-radius: 5px 0 5px 0;
+}
+
+.name-photo {
+  position: relative;
+  left: -11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+
+.done-details {
+  text-align: center;
+}

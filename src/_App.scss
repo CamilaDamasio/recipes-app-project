@@ -1,0 +1,52 @@
+@import "./styles/colors";
+
+@import "./styles/details";
+
+@import "./styles/in-progress";
+
+@import "./styles/ingredients";
+
+@import "./styles/login";
+
+@import "./styles/header";
+
+@import "./styles/explores";
+
+@import "./styles/header";
+
+@import "./styles/profile";
+
+@import "./styles/loading";
+
+@import "./styles/Footer";
+
+@import "./styles/recipes-list";
+
+@import "./styles/done";
+
+@font-face {
+  font-family: KithcenHome;
+  src: url("./fonts/KitchenHome-rg0gB.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+
+main {
+  // height: 100vh;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  border: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.icon,
+.share-icon,
+.favorite-img {
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(4deg) brightness(104%) contrast(101%);
+}

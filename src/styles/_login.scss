@@ -1,0 +1,24 @@
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $cool-green;
+  background-image: url('./images/tryberchef.jpg');
+  background-size: cover;
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(250, 250, 250, 0.8);
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    width: 90vw;
+    border-radius: 5px;
+  }
+}
+
+.btn-primary {
+  background-color: $cool-green !important;
+  border: none !important;
+}

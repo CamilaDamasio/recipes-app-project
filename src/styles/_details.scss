@@ -1,0 +1,94 @@
+.details, .in-progress {
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(5px);
+
+  .drink-img,
+  .meal-img {
+    width: 100vw;
+    margin-bottom: 10px;
+  }
+
+  .start, .finishRecipe {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.detail-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 5px;
+}
+
+.share-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-btn-div {
+  display: flex;
+  align-items: flex-start;
+
+  button {
+    height: 50px;
+  }
+
+  .favorite-btn {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.list-ingredients {
+
+  ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    margin-left: 10vw;
+    width: fit-content;
+  }
+}
+
+iframe {
+  margin: auto;
+}
+
+.instructions {
+  text-align: justify;
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.items-wrapper {
+  width: 95vw;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+.items {
+  display: flex;
+  overflow-x: auto;
+}
+
+.item {
+  flex: none;
+  width: 50vw;
+  text-align: center;
+}
+
+.in-progress-list {
+  list-style: none;
+}
