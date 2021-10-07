@@ -6,26 +6,28 @@ import FooterBtn from './FooterBtn';
 
 function Footer() {
   return (
-    <footer className="footer" data-testid="footer">
-      <FooterBtn
-        to="/bebidas"
-        testid="drinks-bottom-btn"
-        src={ drinkIcon }
-        alt="drinks"
-      />
-      <FooterBtn
-        to="/explorar"
-        testid="explore-bottom-btn"
-        src={ exploreIcon }
-        alt="explore"
-      />
-      <FooterBtn
-        to="/comidas"
-        src={ mealIcon }
-        alt="meals"
-        testid="foot-bottom-btn"
-      />
-    </footer>
+    <div className="div-footer">
+      <footer className="footer" data-testid="footer">
+        <FooterBtn
+          to="/bebidas"
+          testid="drinks-bottom-btn"
+          src={ drinkIcon }
+          alt="drinks"
+        />
+        <FooterBtn
+          to="/explorar"
+          testid="explore-bottom-btn"
+          src={ exploreIcon }
+          alt="explore"
+        />
+        <FooterBtn
+          to="/comidas"
+          src={ mealIcon }
+          alt="meals"
+          testid="foot-bottom-btn"
+        />
+      </footer>
+    </div>
   );
 }
 
