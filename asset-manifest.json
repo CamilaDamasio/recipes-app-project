@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/recipes-app-project/static/css/main.565a6d98.chunk.css",
-    "main.js": "/recipes-app-project/static/js/main.85e9476f.chunk.js",
-    "main.js.map": "/recipes-app-project/static/js/main.85e9476f.chunk.js.map",
+    "main.css": "/recipes-app-project/static/css/main.5ab8dcb0.chunk.css",
+    "main.js": "/recipes-app-project/static/js/main.e07ce92e.chunk.js",
+    "main.js.map": "/recipes-app-project/static/js/main.e07ce92e.chunk.js.map",
     "runtime-main.js": "/recipes-app-project/static/js/runtime-main.f7ecbc99.js",
     "runtime-main.js.map": "/recipes-app-project/static/js/runtime-main.f7ecbc99.js.map",
     "static/css/2.ff645aaf.chunk.css": "/recipes-app-project/static/css/2.ff645aaf.chunk.css",
     "static/js/2.0567dae8.chunk.js": "/recipes-app-project/static/js/2.0567dae8.chunk.js",
     "static/js/2.0567dae8.chunk.js.map": "/recipes-app-project/static/js/2.0567dae8.chunk.js.map",
     "index.html": "/recipes-app-project/index.html",
-    "precache-manifest.9abc3c28401fb5b59257770c661f1bba.js": "/recipes-app-project/precache-manifest.9abc3c28401fb5b59257770c661f1bba.js",
+    "precache-manifest.da32358c9d80fa07c93b89390f67c907.js": "/recipes-app-project/precache-manifest.da32358c9d80fa07c93b89390f67c907.js",
     "service-worker.js": "/recipes-app-project/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/recipes-app-project/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.565a6d98.chunk.css.map": "/recipes-app-project/static/css/main.565a6d98.chunk.css.map",
+    "static/css/main.5ab8dcb0.chunk.css.map": "/recipes-app-project/static/css/main.5ab8dcb0.chunk.css.map",
     "static/js/2.0567dae8.chunk.js.LICENSE.txt": "/recipes-app-project/static/js/2.0567dae8.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/recipes-app-project/static/media/tryberchef.66bea47c.jpg",
+    "static/media/index.css": "/recipes-app-project/static/media/fundo_mobile.615f64a0.png",
     "static/media/blackHeartIcon.svg": "/recipes-app-project/static/media/blackHeartIcon.b8913346.svg",
     "static/media/drinkIcon.svg": "/recipes-app-project/static/media/drinkIcon.f87c47c3.svg",
     "static/media/exploreIcon.svg": "/recipes-app-project/static/media/exploreIcon.157945ff.svg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.f7ecbc99.js",
     "static/css/2.ff645aaf.chunk.css",
     "static/js/2.0567dae8.chunk.js",
-    "static/css/main.565a6d98.chunk.css",
-    "static/js/main.85e9476f.chunk.js"
+    "static/css/main.5ab8dcb0.chunk.css",
+    "static/js/main.e07ce92e.chunk.js"
   ]
 }

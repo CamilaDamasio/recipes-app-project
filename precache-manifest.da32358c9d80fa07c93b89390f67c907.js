@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7985cb6570bff892469c54b7a04e8d13",
+    "revision": "08d16e2504c37b35ebea0921e5347a9c",
     "url": "/recipes-app-project/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/recipes-app-project/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "13ea757ff419984d2398",
-    "url": "/recipes-app-project/static/css/main.565a6d98.chunk.css"
+    "revision": "b91e9a1906a879720bdb",
+    "url": "/recipes-app-project/static/css/main.5ab8dcb0.chunk.css"
   },
   {
     "revision": "ac47e5bf997332795063",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/recipes-app-project/static/js/2.0567dae8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13ea757ff419984d2398",
-    "url": "/recipes-app-project/static/js/main.85e9476f.chunk.js"
+    "revision": "b91e9a1906a879720bdb",
+    "url": "/recipes-app-project/static/js/main.e07ce92e.chunk.js"
   },
   {
     "revision": "d51b35780514241f3f86",
@@ -48,6 +48,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/recipes-app-project/static/media/exploreIcon.157945ff.svg"
   },
   {
+    "revision": "5aa9dbe1fefa95a97d886958a038030d",
+    "url": "/recipes-app-project/static/media/fundo_desktop.5aa9dbe1.png"
+  },
+  {
+    "revision": "615f64a0c7a29bab39a1127a8b34534d",
+    "url": "/recipes-app-project/static/media/fundo_mobile.615f64a0.png"
+  },
+  {
     "revision": "b27ba19ea033355b73926443af1756e9",
     "url": "/recipes-app-project/static/media/mealIcon.b27ba19e.svg"
   },
@@ -62,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "06215ed4cae23455c02abc804445ba74",
     "url": "/recipes-app-project/static/media/shareIcon.06215ed4.svg"
-  },
-  {
-    "revision": "66bea47c318fda89d67f1c84ba348018",
-    "url": "/recipes-app-project/static/media/tryberchef.66bea47c.jpg"
   },
   {
     "revision": "ea3b6ba893ba3908dd84f6170b75545e",
