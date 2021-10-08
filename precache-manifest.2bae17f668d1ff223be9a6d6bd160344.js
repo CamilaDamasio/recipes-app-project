@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "243fcbfaf173e41581c5d185c37775bf",
+    "revision": "bc73535b4a1a37de2b6c34bfecb611a4",
     "url": "/recipes-app-project/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/recipes-app-project/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "6a9174e796bd2e469711",
-    "url": "/recipes-app-project/static/css/main.f7b4811c.chunk.css"
+    "revision": "f5b969707a9fb2187783",
+    "url": "/recipes-app-project/static/css/main.33a5990c.chunk.css"
   },
   {
     "revision": "ac47e5bf997332795063",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/recipes-app-project/static/js/2.0567dae8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a9174e796bd2e469711",
+    "revision": "f5b969707a9fb2187783",
     "url": "/recipes-app-project/static/js/main.ba793566.chunk.js"
   },
   {
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5aa9dbe1fefa95a97d886958a038030d",
     "url": "/recipes-app-project/static/media/fundo_desktop.5aa9dbe1.png"
+  },
+  {
+    "revision": "2ae997b516576b4e2c6b583a6baa528b",
+    "url": "/recipes-app-project/static/media/fundo_explore.2ae997b5.png"
   },
   {
     "revision": "615f64a0c7a29bab39a1127a8b34534d",
