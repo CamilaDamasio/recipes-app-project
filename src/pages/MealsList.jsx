@@ -71,7 +71,7 @@ function MealsList() {
   if (redirect.should) return <Redirect to={ redirect.path } />;
 
   return (
-    <div>
+    <div className="main-div">
       <HeaderWithSearch>
         Comidas
       </HeaderWithSearch>

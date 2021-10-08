@@ -301,7 +301,7 @@ iframe {
   font-weight: 600;
   width: -webkit-fit-content;
   width: -moz-fit-content;
-  width: 200px;
+  width: 50vw;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,6 +311,13 @@ iframe {
       align-items: flex-end;
   align-items: center;
   justify-content: center;
+}
+
+.header-buttons {
+  display: flex;
+  width: 20vw;
+  justify-content: flex-end;
+  margin-right: 2vw;
 }
 
 .search-bar {
@@ -741,13 +748,19 @@ iframe {
 
 .div-footer {
   display: flex;
-  min-height: 100%;
+  height: 10vh;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
 }
 
 .footer {
+  display: flex;
   position: fixed;
-  bottom: 0;
+  margin-bottom: 0;
+  margin: 0;
   width: 100vw;
+  height: 10vh;
   background-color: rgb(41, 41, 41);
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -757,7 +770,7 @@ iframe {
 }
 
 .footer img {
-  width: 10vw;
+  height: 7vh;
 }
 
 .currLocBtn {
@@ -782,8 +795,9 @@ iframe {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   max-width: 100vw;
-  margin-bottom: 12%;
-  background-color: #cfc2ab;
+  max-height: 70vh;
+  scroll-margin: 10vh;
+  overflow: scroll;
 }
 
 .recipe-card {
@@ -827,13 +841,33 @@ iframe {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   height: 20vh;
-  background-color: #cfc2ab;
+  margin: 0;
+  width: 100vw;
 }
 
 .cat {
   width: 33%;
   margin: 5px 0;
   word-wrap: break-word;
+}
+
+.btn-warning {
+  margin: 5px 0;
+  width: 32%;
+  height: 7.5vh;
+  padding: 0 !important;
+  border-color: #cfc2ab !important;
+  background-color: #da971b !important;
+}
+
+.btn-info {
+  margin: 5px 0;
+  width: 32%;
+  height: 7.5vh;
+  border-color: #cfc2ab !important;
+  /* background-color: #df6464 !important; */
+  background-color: #da971b !important;
+  color: black !important;
 }
 
 .done-recipe-card {
@@ -902,6 +936,16 @@ iframe {
 
 main {
   font-family: Poppins, sans-serif;
+  display: flex;
+  height: 100vh;
+  max-width: 100% !important;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  background-color: #cfc2ab;
 }
 
 body {
