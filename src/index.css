@@ -475,6 +475,18 @@ iframe {
           justify-content: space-between;
 }
 
+.profile main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.profile-email {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 90vw;
+  justify-content: center;
+}
+
 .profile-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,10 +503,9 @@ iframe {
           justify-content: center;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-}
-
-.profile-body h3 {
-  margin-top: 50px;
+  background-image: url("./images/fundo_perfil.png");
+  background-size: cover;
+  height: 90vh;
 }
 
 .profile-btns {

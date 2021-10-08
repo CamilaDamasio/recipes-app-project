@@ -20,7 +20,9 @@ function Profile() {
       <HeaderWithoutSearch>Perfil</HeaderWithoutSearch>
       <div className="profile-body">
 
-        <h3 data-testid="profile-email">{localStorage.length && storageUser.email}</h3>
+        <div className="profile-email">
+          <h3 data-testid="profile-email">{localStorage.length && storageUser.email}</h3>
+        </div>
         <div className="profile-btns">
 
           <Button
