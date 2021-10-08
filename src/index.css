@@ -372,6 +372,8 @@ iframe {
           flex-direction: column;
   height: 90vh;
   justify-content: flex-start;
+  background-image: url("./images/fundo_explore.png");
+  background-size: 100% 100%;
 }
 
 .explore header {
