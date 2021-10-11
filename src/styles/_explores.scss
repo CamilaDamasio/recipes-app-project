@@ -1,8 +1,8 @@
 .explore {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
 
   header {
     margin-bottom: 10px;
@@ -10,9 +10,9 @@
 }
 
 .explore-btns {
-  margin-top: 20vh;
   display: flex;
   flex-direction: column;
+  margin-top: 20vh;
 
   button {
     margin: 10px;

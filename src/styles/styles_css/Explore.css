@@ -8,15 +8,28 @@
   justify-content: center;
 }
 
-.explore header {
+.header {
   background-color: rgb(41, 41, 41);
   color: #e5ece9;
   display: flex;
+  flex-direction: row;
   font-family: KithcenHome , sans-serif;
-  height: 8vh;
   justify-content: space-between;
-  padding: 0;
+  padding: 1vw;
   width: 100vw;
+}
+
+.header h2 {
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vw;
+  width: 20vw;
 }
 
 .explore-btns {

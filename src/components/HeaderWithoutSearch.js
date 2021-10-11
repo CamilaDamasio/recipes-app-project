@@ -10,14 +10,16 @@ function HeaderWithoutSearch({ children }) {
   return (
     <header className="header">
       <h2 data-testid="page-title">{ children }</h2>
-      <Button type="button" onClick={ () => history.push('/perfil') }>
-        <img
-          className="icon"
-          data-testid="profile-top-btn"
-          src={ profileIcon }
-          alt="ícone de perfil"
-        />
-      </Button>
+      <div className="header-buttons">
+        <Button type="button" onClick={ () => history.push('/perfil') }>
+          <img
+            className="icon"
+            data-testid="profile-top-btn"
+            src={ profileIcon }
+            alt="ícone de perfil"
+          />
+        </Button>
+      </div>
     </header>
   );
 }

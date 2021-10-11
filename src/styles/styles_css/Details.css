@@ -2,7 +2,7 @@
   background-color: #cfc2ab;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
 }
 
 .img-details {
@@ -78,7 +78,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0 7vw;
+  padding: 0;
 }
 
 .list-ingredients li {
