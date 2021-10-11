@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/recipes-app-project/static/css/main.da32c538.chunk.css",
-    "main.js": "/recipes-app-project/static/js/main.dd79f131.chunk.js",
-    "main.js.map": "/recipes-app-project/static/js/main.dd79f131.chunk.js.map",
+    "main.css": "/recipes-app-project/static/css/main.02b2146c.chunk.css",
+    "main.js": "/recipes-app-project/static/js/main.1cafce8b.chunk.js",
+    "main.js.map": "/recipes-app-project/static/js/main.1cafce8b.chunk.js.map",
     "runtime-main.js": "/recipes-app-project/static/js/runtime-main.f7ecbc99.js",
     "runtime-main.js.map": "/recipes-app-project/static/js/runtime-main.f7ecbc99.js.map",
     "static/css/2.ff645aaf.chunk.css": "/recipes-app-project/static/css/2.ff645aaf.chunk.css",
-    "static/js/2.0567dae8.chunk.js": "/recipes-app-project/static/js/2.0567dae8.chunk.js",
-    "static/js/2.0567dae8.chunk.js.map": "/recipes-app-project/static/js/2.0567dae8.chunk.js.map",
+    "static/js/2.5d60e45a.chunk.js": "/recipes-app-project/static/js/2.5d60e45a.chunk.js",
+    "static/js/2.5d60e45a.chunk.js.map": "/recipes-app-project/static/js/2.5d60e45a.chunk.js.map",
     "index.html": "/recipes-app-project/index.html",
-    "precache-manifest.9c432529ddc8e411116894e117b8fbb0.js": "/recipes-app-project/precache-manifest.9c432529ddc8e411116894e117b8fbb0.js",
+    "precache-manifest.d2887a908b79525b6a2a72efbc9031e9.js": "/recipes-app-project/precache-manifest.d2887a908b79525b6a2a72efbc9031e9.js",
     "service-worker.js": "/recipes-app-project/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/recipes-app-project/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.da32c538.chunk.css.map": "/recipes-app-project/static/css/main.da32c538.chunk.css.map",
-    "static/js/2.0567dae8.chunk.js.LICENSE.txt": "/recipes-app-project/static/js/2.0567dae8.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/recipes-app-project/static/media/fundo_perfil.358f26f3.png",
+    "static/css/main.02b2146c.chunk.css.map": "/recipes-app-project/static/css/main.02b2146c.chunk.css.map",
+    "static/js/2.5d60e45a.chunk.js.LICENSE.txt": "/recipes-app-project/static/js/2.5d60e45a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/recipes-app-project/static/media/Poppins-Regular.8b6af8e5.ttf",
     "static/media/blackHeartIcon.svg": "/recipes-app-project/static/media/blackHeartIcon.b8913346.svg",
     "static/media/drinkIcon.svg": "/recipes-app-project/static/media/drinkIcon.f87c47c3.svg",
     "static/media/exploreIcon.svg": "/recipes-app-project/static/media/exploreIcon.157945ff.svg",
+    "static/media/Login.css": "/recipes-app-project/static/media/fundo_mobile.615f64a0.png",
+    "static/media/Explore.css": "/recipes-app-project/static/media/fundo_explore_mobile.a501256f.png",
+    "static/media/Profile.css": "/recipes-app-project/static/media/fundo_perfil.b659ffb9.png",
     "static/media/mealIcon.svg": "/recipes-app-project/static/media/mealIcon.b27ba19e.svg",
     "static/media/profileIcon.svg": "/recipes-app-project/static/media/profileIcon.74e487e5.svg",
     "static/media/searchIcon.svg": "/recipes-app-project/static/media/searchIcon.db812135.svg",
@@ -27,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.f7ecbc99.js",
     "static/css/2.ff645aaf.chunk.css",
-    "static/js/2.0567dae8.chunk.js",
-    "static/css/main.da32c538.chunk.css",
-    "static/js/main.dd79f131.chunk.js"
+    "static/js/2.5d60e45a.chunk.js",
+    "static/css/main.02b2146c.chunk.css",
+    "static/js/main.1cafce8b.chunk.js"
   ]
 }

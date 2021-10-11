@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d1f7e6c70e1b51370bfc44ac90bb494",
+    "revision": "71bd00ad4c4d74b118b6b895da797eca",
     "url": "/recipes-app-project/index.html"
   },
   {
-    "revision": "ac47e5bf997332795063",
+    "revision": "f115f290a779c897a89e",
     "url": "/recipes-app-project/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "d569ca0bbd1b4fd2b698",
-    "url": "/recipes-app-project/static/css/main.da32c538.chunk.css"
+    "revision": "32fcd1969f2fed8d48d1",
+    "url": "/recipes-app-project/static/css/main.02b2146c.chunk.css"
   },
   {
-    "revision": "ac47e5bf997332795063",
-    "url": "/recipes-app-project/static/js/2.0567dae8.chunk.js"
+    "revision": "f115f290a779c897a89e",
+    "url": "/recipes-app-project/static/js/2.5d60e45a.chunk.js"
   },
   {
     "revision": "9353b4df7938eafd5f8e3a0cf5a68c12",
-    "url": "/recipes-app-project/static/js/2.0567dae8.chunk.js.LICENSE.txt"
+    "url": "/recipes-app-project/static/js/2.5d60e45a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d569ca0bbd1b4fd2b698",
-    "url": "/recipes-app-project/static/js/main.dd79f131.chunk.js"
+    "revision": "32fcd1969f2fed8d48d1",
+    "url": "/recipes-app-project/static/js/main.1cafce8b.chunk.js"
   },
   {
     "revision": "d51b35780514241f3f86",
@@ -56,12 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/recipes-app-project/static/media/fundo_explore.2ae997b5.png"
   },
   {
+    "revision": "a501256ff79064b061107a66982b53d3",
+    "url": "/recipes-app-project/static/media/fundo_explore_mobile.a501256f.png"
+  },
+  {
     "revision": "615f64a0c7a29bab39a1127a8b34534d",
     "url": "/recipes-app-project/static/media/fundo_mobile.615f64a0.png"
   },
   {
-    "revision": "358f26f340cd3946a1bd9984a2b0b339",
-    "url": "/recipes-app-project/static/media/fundo_perfil.358f26f3.png"
+    "revision": "b659ffb90e783fd33150de78933e0c2e",
+    "url": "/recipes-app-project/static/media/fundo_perfil.b659ffb9.png"
   },
   {
     "revision": "b27ba19ea033355b73926443af1756e9",
