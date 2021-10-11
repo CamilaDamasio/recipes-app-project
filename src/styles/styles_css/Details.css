@@ -104,7 +104,6 @@ strong {
 .items-wrapper {
   display: flex;
   margin: auto;
-  padding: 5px;
   width: 95vw;
 }
 
