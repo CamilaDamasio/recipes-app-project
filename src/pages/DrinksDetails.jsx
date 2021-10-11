@@ -117,7 +117,6 @@ function DrinksDetails(props) {
             </p>
 
             <div className="list-ingredients">
-
               <h4>Ingredientes</h4>
               <ul>
                 {functionRenderRecipe(recipeRender)[0].map((ingredient, position) => (
@@ -130,7 +129,6 @@ function DrinksDetails(props) {
                   </li>))}
               </ul>
             </div>
-
             <p
               className="instructions"
               data-testid="instructions"
@@ -158,7 +156,6 @@ function DrinksDetails(props) {
                         alt="meal-recomendation"
                         key={ v4() }
                         src={ recomendation.strMealThumb }
-                        // data-testid="recipe-photo"
                         className="recomendation-img"
                       />
                       {recomendation.strMeal}
