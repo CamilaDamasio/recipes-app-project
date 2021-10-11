@@ -2,6 +2,10 @@
   width: 100vw;
 }
 
+.profile .main-div {
+  width: 100vw;
+}
+
 .profile-email {
   color: aliceblue;
   display: flex;
@@ -39,7 +43,7 @@
 
 .profile-btns button {
   font-size: 4vh 4vw;
-  font-weight: bold;
+  font-weight: 500;
   height: 10vh;
   margin: 10px;
   width: 20vw;
