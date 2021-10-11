@@ -1,8 +1,11 @@
-.profile-div {
+.main-div {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
   width: 100vw;
 }
 
-.profile .main-div {
+.profile-div {
   width: 100vw;
 }
 
