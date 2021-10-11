@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/recipes-app-project/static/css/main.21aaae6f.chunk.css",
-    "main.js": "/recipes-app-project/static/js/main.bb8ea371.chunk.js",
-    "main.js.map": "/recipes-app-project/static/js/main.bb8ea371.chunk.js.map",
+    "main.css": "/recipes-app-project/static/css/main.70475d41.chunk.css",
+    "main.js": "/recipes-app-project/static/js/main.2bf9a6cb.chunk.js",
+    "main.js.map": "/recipes-app-project/static/js/main.2bf9a6cb.chunk.js.map",
     "runtime-main.js": "/recipes-app-project/static/js/runtime-main.f7ecbc99.js",
     "runtime-main.js.map": "/recipes-app-project/static/js/runtime-main.f7ecbc99.js.map",
     "static/css/2.ff645aaf.chunk.css": "/recipes-app-project/static/css/2.ff645aaf.chunk.css",
-    "static/js/2.550ae768.chunk.js": "/recipes-app-project/static/js/2.550ae768.chunk.js",
-    "static/js/2.550ae768.chunk.js.map": "/recipes-app-project/static/js/2.550ae768.chunk.js.map",
+    "static/js/2.cca8b5cd.chunk.js": "/recipes-app-project/static/js/2.cca8b5cd.chunk.js",
+    "static/js/2.cca8b5cd.chunk.js.map": "/recipes-app-project/static/js/2.cca8b5cd.chunk.js.map",
     "index.html": "/recipes-app-project/index.html",
-    "precache-manifest.a8ebc9f7a6dbfc5c2b9da9964d9d8ed7.js": "/recipes-app-project/precache-manifest.a8ebc9f7a6dbfc5c2b9da9964d9d8ed7.js",
+    "precache-manifest.8f011b65fda5091a0d68f9fe92aff02e.js": "/recipes-app-project/precache-manifest.8f011b65fda5091a0d68f9fe92aff02e.js",
     "service-worker.js": "/recipes-app-project/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/recipes-app-project/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.21aaae6f.chunk.css.map": "/recipes-app-project/static/css/main.21aaae6f.chunk.css.map",
-    "static/js/2.550ae768.chunk.js.LICENSE.txt": "/recipes-app-project/static/js/2.550ae768.chunk.js.LICENSE.txt",
+    "static/css/main.70475d41.chunk.css.map": "/recipes-app-project/static/css/main.70475d41.chunk.css.map",
+    "static/js/2.cca8b5cd.chunk.js.LICENSE.txt": "/recipes-app-project/static/js/2.cca8b5cd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/recipes-app-project/static/media/Poppins-Regular.8b6af8e5.ttf",
     "static/media/blackHeartIcon.svg": "/recipes-app-project/static/media/blackHeartIcon.b8913346.svg",
     "static/media/drinkIcon.svg": "/recipes-app-project/static/media/drinkIcon.f87c47c3.svg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.f7ecbc99.js",
     "static/css/2.ff645aaf.chunk.css",
-    "static/js/2.550ae768.chunk.js",
-    "static/css/main.21aaae6f.chunk.css",
-    "static/js/main.bb8ea371.chunk.js"
+    "static/js/2.cca8b5cd.chunk.js",
+    "static/css/main.70475d41.chunk.css",
+    "static/js/main.2bf9a6cb.chunk.js"
   ]
 }
