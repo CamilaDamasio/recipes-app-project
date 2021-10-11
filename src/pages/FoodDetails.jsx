@@ -10,6 +10,7 @@ import blackHeartIcon from '../images/blackHeartIcon.svg';
 import functionSetFavoriteFood from '../utils/functionSetFavoriteFood';
 import functionRenderRecipe from '../utils/functionRenderRecipe';
 import HeaderWithoutSearch from '../components/HeaderWithoutSearch';
+import '../styles/styles_css/Details.css';
 
 function FoodDetails(props) {
   const { match: { params: { id } } } = props;
@@ -71,13 +72,15 @@ function FoodDetails(props) {
       {recipeRender.map((item) => (
         <div key={ v4() } className="details">
 
-          <img
-            alt="meal"
-            key={ v4() }
-            src={ item.strMealThumb }
-            data-testid="recipe-photo"
-            className="meal-img"
-          />
+          <div className="img-details">
+            <img
+              alt="meal"
+              key={ v4() }
+              src={ item.strMealThumb }
+              data-testid="recipe-photo"
+              className="meal-img"
+            />
+          </div>
 
           <div className="detail-card">
             <h3 data-testid="recipe-title">{item.strMeal}</h3>
@@ -148,6 +151,13 @@ function FoodDetails(props) {
                     className="item"
                     data-testid={ `${position}-recomendation-title` }
                   >
+                    <img
+                      alt="drink-recomendation"
+                      key={ v4() }
+                      src={ recomendation.strDrinkThumb }
+                      // data-testid="recipe-photo"
+                      className="recomendation-img"
+                    />
                     {recomendation.strDrink}
                   </div>
                 </div>

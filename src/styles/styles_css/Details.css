@@ -1,0 +1,111 @@
+.img-details {
+  display: flex;
+  justify-content: center;
+}
+
+.details, .in-progress {
+  backdrop-filter: blur(5px);
+  background-color: #cfc2ab;
+  display: flex;
+  flex-direction: column;
+}
+
+.details .drink-img, .details .meal-img, .in-progress .drink-img, .in-progress .meal-img {
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  margin-bottom: 2vh;
+  width: 90vw;
+}
+
+.details .start, .details .finishRecipe, .in-progress .start, .in-progress .finishRecipe {
+  border-radius: 5px 5px 0 0;
+  bottom: 0;
+  width: 100vw;
+}
+
+.detail-card {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw 0 25vw;
+  width: 100vw;
+}
+
+.share-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-btn-div {
+  align-items: flex-start;
+  display: flex;
+}
+
+.details-btn-div button {
+  height: 50px;
+  margin: 0.5vw;
+}
+
+.details-btn-div .favorite-btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 60px;
+}
+
+p {
+  padding: 0 7vw;
+}
+
+.list-ingredients {
+  padding: 0 7vw;
+}
+
+.list-ingredients ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 7vw;
+}
+
+.list-ingredients li {
+  margin-left: 10vw;
+  width: fit-content;
+}
+
+iframe {
+  margin: auto;
+}
+
+.instructions {
+  margin: 0;
+  padding: 4vh 7vw;
+  text-align: justify;
+}
+
+strong {
+  font-size: 3vh;
+  text-align: center;
+}
+
+.items-wrapper {
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 5px;
+  width: 95vw;
+}
+
+.items {
+  border-radius: 7px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 30vw;
+}

@@ -13,11 +13,11 @@ import functionRenderRecipe from '../utils/functionRenderRecipe';
 import HeaderWithoutSearch from '../components/HeaderWithoutSearch';
 import Loading from '../components/Loading';
 import { setLoading } from '../redux/actions/loading';
+import '../styles/styles_css/Details.css';
 
 function DrinksDetails(props) {
   const { match: { params: { id } } } = props;
   const [recipeRender, setRecipeRender] = useState([]);
-  // const [loading, setloading] = useState(true);
   const { shouldRedirect, redirect } = useRedirect();
   const [mealsRecomendation, setmealsRecomendation] = useState([]);
   const [heartColor, setHeartColor] = useState(false);
@@ -77,13 +77,15 @@ function DrinksDetails(props) {
       {!recipeRender ? <Loading />
         : recipeRender.map((item) => (
           <div key={ v4() } className="details">
-            <img
-              alt="drink"
-              key={ v4() }
-              src={ item.strDrinkThumb }
-              data-testid="recipe-photo"
-              className="drink-img"
-            />
+            <div className="img-details">
+              <img
+                alt="drink"
+                key={ v4() }
+                src={ item.strDrinkThumb }
+                data-testid="recipe-photo"
+                className="drink-img"
+              />
+            </div>
 
             <div className="detail-card">
 
@@ -140,6 +142,7 @@ function DrinksDetails(props) {
               {item.strInstructions}
             </p>
 
+            <strong>Combinações de Comidas</strong>
             <div className="items-wrapper">
               <div className="items">
                 {mealsRecomendation.map((recomendation, position) => (
@@ -151,6 +154,13 @@ function DrinksDetails(props) {
                       className="item"
                       data-testid={ `${position}-recomendation-title` }
                     >
+                      <img
+                        alt="meal-recomendation"
+                        key={ v4() }
+                        src={ recomendation.strMealThumb }
+                        // data-testid="recipe-photo"
+                        className="recomendation-img"
+                      />
                       {recomendation.strMeal}
                     </div>
                   </div>

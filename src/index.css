@@ -1,4 +1,4 @@
-.details, .in-progress {
+/* .details, .in-progress {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,7 +125,7 @@ iframe {
           flex: none;
   width: 50vw;
   text-align: center;
-}
+} */
 
 .in-progress-list {
   list-style: none;
