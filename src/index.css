@@ -462,14 +462,14 @@
   src: url("./fonts/Poppins/Poppins-Regular.ttf");
 }
 
-main {
+/* main {
   font-family: Poppins, sans-serif;
   display: flex;
   height: 100vh;
   width: 100%;
-}
+} */
 
-.main-div {
+/* .main-div {
   display: flex;
   flex-direction: column;
   height: 90vh;
@@ -480,7 +480,7 @@ body {
   border: 0;
   padding: 0;
   height: 100vh;
-}
+} */
 
 .icon,
 .share-icon,

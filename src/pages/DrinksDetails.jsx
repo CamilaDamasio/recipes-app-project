@@ -72,7 +72,7 @@ function DrinksDetails(props) {
   }
 
   return (
-    <div>
+    <div className="main-div">
       <HeaderWithoutSearch>Detalhes</HeaderWithoutSearch>
       {!recipeRender ? <Loading />
         : recipeRender.map((item) => (

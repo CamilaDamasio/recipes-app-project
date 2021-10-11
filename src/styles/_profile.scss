@@ -1,9 +1,9 @@
 .profile-body {
+  align-items: center;
+  backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  backdrop-filter: blur(5px);
 
   h3 {
     margin-top: 50px;
@@ -11,9 +11,9 @@
 }
 
 .profile-btns {
-  margin-top: 10vh;
   display: flex;
   flex-direction: column;
+  margin-top: 10vh;
 
   button {
     margin: 10px;

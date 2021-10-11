@@ -1,6 +1,18 @@
+.main-div {
+  background-color: #cfc2ab;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .img-details {
   display: flex;
   justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  width: 50vw;
 }
 
 .details, .in-progress {
@@ -11,10 +23,10 @@
 }
 
 .details .drink-img, .details .meal-img, .in-progress .drink-img, .in-progress .meal-img {
-  border-radius: 0 0 8px 8px;
+  border-radius: 150px;
   display: flex;
   margin-bottom: 2vh;
-  width: 90vw;
+  width: 50vw;
 }
 
 .details .start, .details .finishRecipe, .in-progress .start, .in-progress .finishRecipe {
@@ -27,8 +39,8 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0 5vw 0 25vw;
-  width: 100vw;
+  margin: auto;
+  width: 90vw;
 }
 
 .share-btn {
@@ -90,8 +102,8 @@ strong {
 }
 
 .items-wrapper {
+  display: flex;
   margin: auto;
-  margin-bottom: 50px;
   padding: 5px;
   width: 95vw;
 }
