@@ -4,6 +4,7 @@ import { Redirect } from 'react-router';
 import useLogin from '../hooks/useLogin';
 import useRedirect from '../hooks/useRedirect';
 import useValidation from '../hooks/useValidation';
+import '../styles/styles_css/Login.css';
 
 function Login() {
   const { handleChange, validate, data } = useValidation();

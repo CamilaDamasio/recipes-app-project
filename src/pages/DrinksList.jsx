@@ -10,6 +10,7 @@ import useCategories from '../hooks/useCategories';
 import { setLoading } from '../redux/actions/loading';
 import useRedirect from '../hooks/useRedirect';
 import LoadingSmall from '../components/LoadingSmall';
+import '../styles/styles_css/MealsAndDrinksList.css';
 
 function DrinksList() {
   const { reducerAPI: { loading, cocktails } } = useSelector((state) => state);

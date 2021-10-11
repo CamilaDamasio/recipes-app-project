@@ -1,0 +1,70 @@
+.login {
+  align-items: center;
+  background-image: url('./img/fundo_desktop.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.login .inputs {
+  backdrop-filter: blur(3px);
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  padding: 10px;
+  width: 50vw;
+}
+
+.title-login {
+  align-items: center;
+  color: #e7e7e7;
+  display: flex;
+  font-family: KithcenHome , sans-serif;
+  height: 10%;
+  justify-content: center;
+  margin-bottom: 3%;
+  margin-left: 40%;
+  padding: 10px;
+  width: 50vw;
+}
+
+@media ( max-width : 768px ) {
+
+  .login {
+    align-items: center;
+    background-image: url('./img/fundo_mobile.png');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    overflow-y: hidden;
+  }
+
+  .login .inputs {
+    backdrop-filter: blur(3px);
+    background-color: rgba(250, 250, 250, 0.8);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    width: 90vw;
+  }
+
+  .title-login {
+    align-items: center;
+    color: #e7e7e7;
+    display: flex;
+    font-family: KithcenHome , sans-serif;
+    height: 10%;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 10%;
+    width: 90vw;
+  }
+}

@@ -4,6 +4,7 @@ import { Redirect } from 'react-router-dom';
 import Footer from '../components/Footer';
 import HeaderWithoutSearch from '../components/HeaderWithoutSearch';
 import useRedirect from '../hooks/useRedirect';
+import '../styles/styles_css/Explore.css';
 
 function Explore() {
   const { shouldRedirect, redirect } = useRedirect();

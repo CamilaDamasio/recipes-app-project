@@ -1,0 +1,66 @@
+.explore {
+  align-items: center;
+  background-image: url('../styles_css/img/fundo_explore.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+}
+
+.explore header {
+  background-color: rgb(41, 41, 41);
+  color: #e5ece9;
+  display: flex;
+  font-family: KithcenHome , sans-serif;
+  height: 8vh;
+  justify-content: space-between;
+  padding: 0;
+  width: 100vw;
+}
+
+.explore-btns {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 100vw;
+}
+
+.explore-btns button {
+  background-color: black;
+  height: 8vh;
+  margin: 10px;
+}
+
+.explore .btn-danger {
+  background-image: linear-gradient(135deg, rgb(136, 23, 23) 0%, black 100%);
+  border: 4px solid;
+  border-image: linear-gradient(135deg, black 0%, red 100%) 1;
+}
+
+@media ( max-width : 768px ) {
+
+  .explore {
+    align-items: center;
+    background-image: url('../styles_css/img/fundo_explore_mobile.png');
+    background-size: 100% 100%;
+  }
+
+  .explore-btns {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .explore-btns button {
+    background-color: black;
+    height: 8vh;
+    margin: 8%;
+  }
+}

@@ -1,0 +1,70 @@
+.profile-div {
+  width: 100vw;
+}
+
+.profile-email {
+  color: aliceblue;
+  display: flex;
+  font-size: 3vw;
+  justify-content: center;
+  width: 90vw;
+}
+
+.profile-body {
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-image: url('./img/fundo_perfil.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+}
+
+.profile {
+  align-items: center;
+  background-image: url('./img/fundo_perfil.png');
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+}
+
+.profile-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profile-btns button {
+  font-size: 4vh 4vw;
+  font-weight: bold;
+  height: 10vh;
+  margin: 10px;
+  width: 20vw;
+}
+
+@media ( max-width : 768px ) {
+
+  .profile-email {
+    color: aliceblue;
+    display: flex;
+    font-size: 5vw;
+    justify-content: center;
+    width: 90vw;
+  }
+
+  .profile-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .profile-btns button {
+    font-size: 3vh 3vw;
+    height: 10vh;
+    margin: 10px;
+    width: 40vw;
+  }
+}

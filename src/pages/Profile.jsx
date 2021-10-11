@@ -5,6 +5,7 @@ import HeaderWithoutSearch from '../components/HeaderWithoutSearch';
 import useLogout from '../hooks/useLogout';
 import useRedirect from '../hooks/useRedirect';
 import Footer from '../components/Footer';
+import '../styles/styles_css/Profile.css';
 
 function Profile() {
   const storageUser = JSON.parse(localStorage.getItem('user'));
@@ -16,12 +17,12 @@ function Profile() {
   if (redirect.should) return <Redirect to={ redirect.path } />;
 
   return (
-    <div>
+    <div className="main-div">
       <HeaderWithoutSearch>Perfil</HeaderWithoutSearch>
       <div className="profile-body">
 
         <div className="profile-email">
-          <h3 data-testid="profile-email">{localStorage.length && storageUser.email}</h3>
+          <p data-testid="profile-email">{localStorage.length && storageUser.email}</p>
         </div>
         <div className="profile-btns">
 

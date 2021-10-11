@@ -173,41 +173,6 @@ iframe {
   border-radius: 5px 5px 0 0;
 }
 
-.login {
-  height: 100vh !important;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url("./images/fundo_desktop.png");
-  background-size: cover;
-}
-
-.login .inputs {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: rgba(250, 250, 250, 0.8);
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
-  padding: 10px;
-  width: 50vw;
-  margin-left: 40%;
-  border-radius: 5px;
-}
-
 .btn-primary {
   background-image: 
   linear-gradient(135deg, black 0%, #ff0000 100%);
@@ -215,206 +180,9 @@ iframe {
   border-image: linear-gradient(135deg, #ff0000 0%, #000000 100%) 1 !important;
 }
 
-.title-login {
-  display: flex;
-  color: #e7e7e7;
-  padding: 10px;
-  width: 50vw;
-  margin-left: 40%;
-  justify-content: center;
-  height: 10%;
-  align-items: center;
-  margin-bottom: 3%;
-  font-family: KithcenHome, sans-serif;
-}
-
-@media ( max-width : 768px ) {
-  .login {
-    height: 100vh;
-    overflow-y: hidden !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-image: url("./images/fundo_mobile.png") !important;
-    background-size: cover;
-  }
-  
-  .login .inputs {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: rgba(250, 250, 250, 0.8);
-    -webkit-backdrop-filter: blur(3px);
-            backdrop-filter: blur(3px);
-    padding: 10px;
-    width: 90vw !important;
-    margin: auto;
-    border-radius: 5px;
-  }
-
-  .title-login {
-    display: flex;
-    color: #e7e7e7;
-    width: 90vw !important;
-    margin: 0;
-    justify-content: center;
-    height: 10%;
-    align-items: center;
-    margin-bottom: 10%;
-    font-family: KithcenHome, sans-serif;
-  }
-}
-
 @font-face {
   font-family: KithcenHome;
   src: url("./fonts/KitchenHome-rg0gB.ttf");
-}
-
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  background-color: rgb(41, 41, 41);
-  max-width: 100vw;
-  font-family: KithcenHome, sans-serif;
-  padding: 0;
-  color: #e5ece9;
-}
-
-.header h2 {
-  font-weight: 600;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: 50vw;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-    -ms-flex-align: end;
-      align-items: flex-end;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-buttons {
-  display: flex;
-  width: 20vw;
-  justify-content: flex-end;
-  margin-right: 2vw;
-}
-
-
-
-.search-bar {
-  position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  top: 51px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  background-color: #e5ece9;
-  width: 100vw;
-  border-radius: 0 0 5px 5px;
-}
-
-.search-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 5px;
-}
-
-.radios {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-      justify-content: space-between;
-}
-
-.explore {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 90vh;
-  justify-content: flex-start;
-  background-image: url("./images/fundo_explore.png");
-  background-size: 100% 100%;
-}
-
-.explore header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  background-color: rgb(41, 41, 41);
-  width: 100vw;
-  height: 8vh !important;
-  font-family: KithcenHome, sans-serif;
-  padding: 0;
-  color: #e5ece9;
-}
-
-.explore-btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-      flex-direction: column;
-  height: 100vh;
-  margin: 0;
-  align-content: center;
-  justify-content: center;
-}
-
-.explore-btns button {
-  margin: 10px;
-  background-color: black;
-  height: 5vh;
 }
 
 .origin-select {
@@ -473,54 +241,6 @@ iframe {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.profile main {
-  width: 100vw;
-  height: 100vh;
-}
-
-.profile-email {
-  display: flex;
-  flex-wrap: nowrap;
-  width: 90vw;
-  justify-content: center;
-}
-
-.profile-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  background-image: url("./images/fundo_perfil.png");
-  background-size: cover;
-  height: 90vh;
-}
-
-.profile-btns {
-  margin-top: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.profile-btns button {
-  margin: 10px;
 }
 
 .loading {
@@ -802,129 +522,9 @@ iframe {
   }
 }
 
-.div-footer {
-  display: flex;
-  height: 10vh;
-  position: fixed;
-  width: 100vw;
-  bottom: 0;
-}
-
-.footer {
-  display: flex;
-  position: fixed;
-  margin-bottom: 0;
-  margin: 0;
-  width: 100vw;
-  height: 10vh;
-  background-color: rgb(41, 41, 41);
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer img {
-  height: 7vh;
-}
-
 .currLocBtn {
   -webkit-box-shadow: 0 0 10px #e5ece9 !important;
           box-shadow: 0 0 10px #e5ece9 !important;
-}
-
-.selected-drink {
-  background-color: var(--info) !important;
-}
-
-.selected-meal {
-  background-color: var(--danger) !important;
-}
-
-.cards-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  max-width: 100vw;
-  max-height: 70vh;
-  scroll-margin: 10vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-.recipe-card {
-  width: 175px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-  flex-direction: column;
-  margin: 5px 2px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 2px 5px black;
-          box-shadow: 0 2px 5px black;
-  -webkit-box-align: center;
-    -ms-flex-align: center;
-  align-items: center;
-  padding: 0;
-  border: none;
-}
-
-.recipe-card img {
-  width: 175px;
-  border-radius: 5px 5px 0 0;
-}
-
-.card-name {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  word-wrap: break-word;
-}
-
-.cat-btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  height: 20vh;
-  margin: 0;
-  width: 100vw;
-}
-
-.cat {
-  width: 33%;
-  margin: 5px 0;
-  word-wrap: break-word;
-}
-
-.btn-warning {
-  margin: 5px 0;
-  width: 32%;
-  height: 7.5vh;
-  padding: 0 !important;
-  border-color: #cfc2ab !important;
-  /* background-color: #da971b !important; */
-}
-
-.btn-info {
-  margin: 5px 0;
-  width: 32%;
-  height: 7.5vh;
-  border-color: #cfc2ab !important;
-  /* background-color: #df6464 !important;
-  background-color: #f5cb11 !important; */
-  color: black !important;
 }
 
 .done-recipe-card {
@@ -995,13 +595,13 @@ main {
   font-family: Poppins, sans-serif;
   display: flex;
   height: 100vh;
-  max-width: 100% !important;
+  width: 100%;
 }
 
 .main-div {
   display: flex;
   flex-direction: column;
-  max-height: 90vh;
+  height: 90vh;
   background-color: #cfc2ab;
 }
 
@@ -1017,4 +617,3 @@ body {
   -webkit-filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(4deg) brightness(104%) contrast(101%);
           filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(4deg) brightness(104%) contrast(101%);
 }
-/*# sourceMappingURL=index.css.map */
