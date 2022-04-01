@@ -99,7 +99,7 @@ function MealsList() {
           All
         </Button>
       </div>
-      <div className="cards-list">
+      <ul className="cards-list">
         { loading ? <LoadingSmall /> : renderedMeals.map((item, index) => (
           <button
             type="button"
@@ -121,7 +121,7 @@ function MealsList() {
             </h4>
           </button>
         ))}
-      </div>
+      </ul>
       <Footer />
     </div>
   );

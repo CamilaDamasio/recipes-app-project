@@ -77,57 +77,55 @@ function FoodDetails(props) {
       {!recipeRender ? <Loading />
         : recipeRender.map((item) => (
           <div key={ v4() } className="details">
-            <div className="img-details">
-              <img
-                alt="meal"
-                key={ v4() }
-                src={ item.strMealThumb }
-                data-testid="recipe-photo"
-                className="meal-img"
-              />
-            </div>
-
-            <div className="detail-card">
-
-              <h3 data-testid="recipe-title">{item.strMeal}</h3>
-
-              <div className="details-btn-div">
-                <ShareBtn id={ id } type="comida" className="btn-share" />
-
-                <Button
-                  variant="danger"
-                  type="button"
-                  className="favorite-btn"
-                  onClick={ () => functionSetFavorite(recipeRender, id, setHeartColor) }
-                >
-                  <img
-                    id="fav-btn"
-                    src={ heartColor ? blackHeartIcon : whiteHeartIcon }
-                    alt="favoritar"
-                    data-testid="favorite-btn"
-                    className="favorite-img"
-                  />
-                </Button>
+            <div className='img-ingredients'>
+              <div className="img-details">
+                <img
+                  alt="meal"
+                  key={ v4() }
+                  src={ item.strMealThumb }
+                  data-testid="recipe-photo"
+                  className="meal-img"
+                />
               </div>
-            </div>
-
-            <p data-testid="recipe-category">
-              <span>Categoria: </span>
-              {item.strCategory}
-            </p>
-
-            <div className="list-ingredients">
-              <h4>Ingredientes</h4>
-              <ul>
-                {functionRenderRecipe(recipeRender)[0].map((ingredient, position) => (
-                  <li
-                    data-testid={ `${position}-ingredient-name-and-measure` }
-                    key={ v4() }
-                  >
-                    {ingredient}
-                    {functionRenderRecipe(recipeRender)[1][position]}
-                  </li>))}
-              </ul>
+              <div className='recipe-detail'>
+                <div className="detail-card">
+                  <h3 data-testid="recipe-title">{item.strMeal}</h3>
+                  <div className="details-btn-div">
+                    <ShareBtn id={ id } type="comida" className="btn-share" />
+                    <Button
+                      variant="danger"
+                      type="button"
+                      className="favorite-btn"
+                      onClick={ () => functionSetFavorite(recipeRender, id, setHeartColor) }
+                    >
+                      <img
+                        id="fav-btn"
+                        src={ heartColor ? blackHeartIcon : whiteHeartIcon }
+                        alt="favoritar"
+                        data-testid="favorite-btn"
+                        className="favorite-img"
+                      />
+                    </Button>
+                  </div>
+                </div>
+                <p data-testid="recipe-category">
+                  <span>Categoria: </span>
+                  {item.strCategory}
+                </p>
+                <div className="list-ingredients">
+                  <h4>Ingredientes</h4>
+                  <ul>
+                    {functionRenderRecipe(recipeRender)[0].map((ingredient, position) => (
+                      <li
+                        data-testid={ `${position}-ingredient-name-and-measure` }
+                        key={ v4() }
+                      >
+                        {ingredient}
+                        {functionRenderRecipe(recipeRender)[1][position]}
+                      </li>))}
+                  </ul>
+                </div>
+              </div>
             </div>
             <p
               className="instructions"
@@ -148,7 +146,7 @@ function FoodDetails(props) {
 
             <strong>Combinações de Drinks</strong>
             <div className="items-wrapper">
-              <div className="items">
+              <ul className="items">
                 {drinksRecomendation.map((recomendation, position) => (
                   <div
                     data-testid={ `${position}-recomendation-card` }
@@ -168,7 +166,7 @@ function FoodDetails(props) {
                     </div>
                   </div>
                 ))}
-              </div>
+              </ul>
             </div>
             <Button
               className="start"

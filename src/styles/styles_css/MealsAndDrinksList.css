@@ -138,3 +138,17 @@
 .footer img {
   height: 7vh;
 }
+
+ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: rgb(66, 66, 65);
+  border-radius: 7px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: #ff8f34e3;
+  border-radius: 20px;
+}

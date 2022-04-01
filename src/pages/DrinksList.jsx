@@ -99,7 +99,7 @@ function DrinksList() {
           All
         </Button>
       </div>
-      <div className="cards-list">
+      <ul className="cards-list">
         { loading ? <LoadingSmall /> : renderedCocktails.map((item, index) => (
           <button
             type="button"
@@ -121,7 +121,7 @@ function DrinksList() {
             </h4>
           </button>
         ))}
-      </div>
+      </ul>
       <Footer />
     </div>
   );

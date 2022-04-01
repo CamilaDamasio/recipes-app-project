@@ -7,6 +7,8 @@ import blackHeartIcon from '../images/blackHeartIcon.svg';
 import { drinkById } from '../utils/fetchAPIbyID';
 import useRedirect from '../hooks/useRedirect';
 import HeaderWithoutSearch from '../components/HeaderWithoutSearch';
+import '../styles/styles_css/InProgress.css';
+
 
 function DrinksInProgress() {
   const { id } = useParams();
@@ -165,67 +167,71 @@ function DrinksInProgress() {
     <div onChange={ isDisabled } className="in-progress">
       { redirect.should && <Redirect to={ redirect.path } />}
       <HeaderWithoutSearch>Receita em progresso</HeaderWithoutSearch>
-      <img
-        src={ drinkDetails.strDrinkThumb }
-        alt="imagem da bebida"
-        data-testid="recipe-photo"
-        className="in-progress-pic"
-      />
-      <div className="detail-card">
-        <h2 data-testid="recipe-title">{ drinkDetails.strDrink }</h2>
-        <div className="details-btn-div">
-          <ShareBtn id={ id } type="bebida" />
-          <Button
-            className="favorite-btn"
-            variant="danger"
-            type="button"
-            onClick={ setFavorite }
-          >
-            <img
-              id="fav-btn"
-              className="icon"
-              src={ whiteHeartIcon }
-              alt="favoritar"
-              data-testid="favorite-btn"
-            />
-          </Button>
-        </div>
-      </div>
-      <p data-testid="recipe-category">
-        <span>Categoria: </span>
-        { drinkDetails.strAlcoholic }
-      </p>
-      <div className="list-ingredients">
-        <h4>Ingredientes</h4>
-        <ul>
-          {listIngredients.map((ingredient, index) => (
-            <li
-              key={ index }
-              data-testid={ `${index}-ingredient-step` }
-              className="in-progress-list"
-            >
-              <Form.Group className="mb-3" controlId={ `${index}-ingredient-step` }>
-                <Form.Check
-                  type="checkbox"
-                  id={ `${index}-ingredient-step` }
-                  label={ filterAlcoohol[index] ? (
-                    `${ingredient[1]} - ${filterAlcoohol[index][1]}`
-                  ) : (ingredient[1]) }
-                  onChange={ ({ target }) => {
-                    const label = target.parentElement;
-                    progressRecipe(label.innerText);
-                    if (target.checked) {
-                      label.style.textDecoration = 'line-through';
-                    } else if (!target.checked) {
-                      target.defaultChecked = false;
-                      label.style.textDecoration = 'none';
-                    }
-                  } }
+      <div className="img-ingredients">
+        <img
+          src={ drinkDetails.strDrinkThumb }
+          alt="imagem da bebida"
+          data-testid="recipe-photo"
+          className="in-progress-pic"
+        />
+        <div className='recipe-detail'>
+          <div className="detail-card">
+            <h2 data-testid="recipe-title">{ drinkDetails.strDrink }</h2>
+            <div className="details-btn-div">
+              <ShareBtn id={ id } type="bebida" />
+              <Button
+                className="favorite-btn"
+                variant="danger"
+                type="button"
+                onClick={ setFavorite }
+              >
+                <img
+                  id="fav-btn"
+                  className="icon"
+                  src={ whiteHeartIcon }
+                  alt="favoritar"
+                  data-testid="favorite-btn"
                 />
-              </Form.Group>
-            </li>
-          ))}
-        </ul>
+              </Button>
+            </div>
+          </div>
+          <p data-testid="recipe-category">
+            <span>Categoria: </span>
+            { drinkDetails.strAlcoholic }
+          </p>
+          <div className="list-ingredients">
+            <h4>Ingredientes</h4>
+            <ul>
+              {listIngredients.map((ingredient, index) => (
+                <li
+                  key={ index }
+                  data-testid={ `${index}-ingredient-step` }
+                  className="in-progress-list"
+                >
+                  <Form.Group className="mb-3" controlId={ `${index}-ingredient-step` }>
+                    <Form.Check
+                      type="checkbox"
+                      id={ `${index}-ingredient-step` }
+                      label={ filterAlcoohol[index] ? (
+                        `${ingredient[1]} - ${filterAlcoohol[index][1]}`
+                      ) : (ingredient[1]) }
+                      onChange={ ({ target }) => {
+                        const label = target.parentElement;
+                        progressRecipe(label.innerText);
+                        if (target.checked) {
+                          label.style.textDecoration = 'line-through';
+                        } else if (!target.checked) {
+                          target.defaultChecked = false;
+                          label.style.textDecoration = 'none';
+                        }
+                      } }
+                    />
+                  </Form.Group>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
       <strong>Instruções: </strong>
       <p

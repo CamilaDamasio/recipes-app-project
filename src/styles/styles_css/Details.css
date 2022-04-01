@@ -2,12 +2,27 @@
   background-color: #cfc2ab;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.img-ingredients {
+  align-items: center;
+  display: flex;
+  padding-top: 1vh;
 }
 
 .img-details {
   display: flex;
+  height: 40vh;
   justify-content: center;
+  width: 40vw;
+}
+
+.recipe-detail {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
 }
 
 h3 {
@@ -23,10 +38,10 @@ h3 {
 }
 
 .details .drink-img, .details .meal-img, .in-progress .drink-img, .in-progress .meal-img {
-  border-radius: 150px;
+  border-radius: 7px;
   display: flex;
   margin-bottom: 2vh;
-  width: 50vw;
+  width: 30vw;
 }
 
 .details .start, .details .finishRecipe, .in-progress .start, .in-progress .finishRecipe {
@@ -40,7 +55,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  width: 90vw;
+  width: 50vw;
 }
 
 .share-btn {
@@ -70,6 +85,20 @@ p {
   padding: 0 7vw;
 }
 
+ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: rgb(66, 66, 65);
+  border-radius: 7px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: #ff8f34e3;
+  border-radius: 20px;
+}
+
 .list-ingredients {
   padding: 0 7vw;
 }
@@ -92,7 +121,8 @@ iframe {
 
 .instructions {
   margin: 0;
-  padding: 4vh 7vw;
+
+  /* padding: 4vh 7vw; */
   text-align: justify;
 }
 
@@ -102,9 +132,11 @@ strong {
 }
 
 .items-wrapper {
+  align-items: center;
   display: flex;
+  height: 32.3vh;
   margin: auto;
-  width: 95vw;
+  width: 90vw;
 }
 
 .items {
@@ -118,5 +150,5 @@ strong {
   flex-direction: column;
   height: 100%;
   text-align: center;
-  width: 30vw;
+  width: 17vw;
 }

@@ -33,14 +33,17 @@
 }
 
 // main {
-//   font-family: Poppins , sans-serif;
+//   // font-family: Poppins , sans-serif;
 //   height: 100vh;
+//   width: 100vw;
+//   overflow-x: hidden;
 // }
 
 // body {
 //   border: 0;
 //   height: 100vh;
 //   padding: 0;
+//   overflow-x: hidden;
 // }
 .icon, .share-icon, .favorite-img {
   filter: invert(100%) sepia(100%) saturate(2%) hue-rotate

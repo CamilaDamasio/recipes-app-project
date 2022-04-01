@@ -2,9 +2,9 @@
   list-style: none;
 }
 
-.in-progress .in-progress-pic {
-  width: 100vw;
-}
+/* .in-progress .in-progress-pic {
+  width: 0vw;
+} */
 
 .ingredients-list {
   display: -webkit-box;
